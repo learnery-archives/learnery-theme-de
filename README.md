@@ -1,45 +1,33 @@
-# Learnery::Theme
+# Learnery::Theme (variant: blank)
 
-A blank theme for learnery,
-and app for organizing learning events
-https://github.com/learnery/theme-blank.git
+a gem that adds a blank white theme 
+
+
+![learnery with blank theme](http://learnery.github.io/images/screenshot-1.png) 
+
+[demo installation of learnery with blank theme](http://learnery.herokuapp.com/) 
+
+learnery is an app for organizing learning events
+https://github.com/learnery/learnery
 
 ## Installation
 
-Add this line to your application's Gemfile:
+This theme should already be specified in your Gemfile:
 
-    gem 'learnery-theme'
+    gem 'learnery-theme', :git => 'https://github.com/learnery/learnery-theme.git'
 
-And then execute:
+it will be installed when you execute:
 
-    $ bundle
+    $ bundle install
 
-Or install it yourself as:
+See the documentation of learnery for more information about
+using different themes and adapting themes.
 
-    $ gem install learnery-theme
 
-## Using a ready-made theme
-
-to pick another theme than the blank theme,
-
-    gem 'learnery-theme', :git => https://github.com/learnery/theme-webdev.git
-
-or fork a theme and point to your own git repository:
-
-    gem 'learnery-theme', :git => https://github.com/MYGIT/theme-MINE.git
-
-## Creating your own theme
-
-1. Fork one of the readymade themes
-2. Point your Gemfile to your own git repository
-
-    gem 'learnery-theme', :git => https://github.com/MYGIT/theme-MINE.git
-
-## Fixing Problems in the Blank Theme
+## Fixing Problems in this theme
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
