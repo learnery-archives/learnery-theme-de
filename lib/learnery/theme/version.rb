@@ -2,8 +2,8 @@ module Learnery
   module Theme
     VERSION = "0.0.1"
 
-    SITE_LOCALE      = "en"
-    SITE_NAME        = "Learnery"
-    SITE_DESCRIPTION = "an app to help you organize open learning events like coderdojos, railsbridge, hackathons"
+    SITE_LOCALE      = "de"
+    SITE_NAME        = "Lernerei"
+    SITE_DESCRIPTION = "Eine App die Dir hilft Dein offenes Lern-Event wie railsgirls, computerclub, barcamp zu veranstalten"
   end
 end
