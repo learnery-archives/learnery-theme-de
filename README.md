@@ -1,28 +1,26 @@
-# Learnery::Theme (variant: blank)
+# Learnery::Theme (variant: german)
 
-a gem that adds a blank white theme 
+a gem that adds a blank white theme  - localized to german
 
 
-![learnery with blank theme](http://learnery.github.io/images/screenshot-1.png) 
+![learnery with blank theme - english version](http://learnery.github.io/images/screenshot-1.png) 
 
-[demo installation of learnery with blank theme](http://learnery.herokuapp.com/) 
+[demo installation of learnery with blank theme - english version](http://learnery.herokuapp.com/) 
 
 learnery is an app for organizing learning events
 https://github.com/learnery/learnery
 
 ## Installation
 
-This theme should already be specified in your Gemfile:
+Add this line to your application's Gemfile:
 
-    gem 'learnery-theme', :git => 'https://github.com/learnery/learnery-theme.git'
+  gem 'learnery-theme', :git => 'https://github.com/learnery/learnery-theme-de.git'
 
-it will be installed when you execute:
+And then execute:
 
-    $ bundle install
+  $ bundle
 
-See the documentation of learnery for more information about
-using different themes and adapting themes.
-
+See the documentation of learnery for more information about using different themes and adapting themes.
 
 ## Fixing Problems in this theme
 
